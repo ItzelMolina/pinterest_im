@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="text"] {
+  width: 60%;
+  background-color: #e3e3e3;
+  border: none;
+  height: 40px;
+}
+
+select {
+  background-color: gray;
+  border: none;
+  height: 40px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+main {
+  padding-top: 200px;
+}
+
+.contenedor-iconos > img {
+  margin: 20px;
+}
+
+.contenedor-items > p {
+  display: inline-block;
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.columna {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.bg-red {
+}
