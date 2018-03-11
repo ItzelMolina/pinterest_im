@@ -1,13 +1,25 @@
+/*Tags*/
+
 body {
   margin: 0;
   padding: 0;
 }
 
 input[type="text"] {
-  width: 60%;
   background-color: #e3e3e3;
   border: none;
   height: 40px;
+  width: 60%;
+}
+
+main {
+  padding-top: 200px;
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  width: 100%;
 }
 
 select {
@@ -16,32 +28,28 @@ select {
   height: 40px;
 }
 
-nav {
-  position: fixed;
-  width: 100%;
-  background-color: white;
-}
-
-main {
-  padding-top: 200px;
-}
+/*clases*/
 
 .contenedor-iconos > img {
   margin: 20px;
 }
 
 .contenedor-items > p {
-  display: inline-block;
   background-color: purple;
-  color: white;
-  padding: 10px 20px;
   border-radius: 10px;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
 }
 
 .columna {
   display: inline-block;
-  width: 300px;
   vertical-align: top;
+  width: 300px;
+}
+
+.clear {
+  clear: both;
 }
 
 .float-right {
@@ -50,11 +58,4 @@ main {
 
 .text-center {
   text-align: center;
-}
-
-.clear {
-  clear: both;
-}
-
-.bg-red {
 }
